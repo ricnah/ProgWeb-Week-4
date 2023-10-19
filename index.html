@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>RIC FORM | Jobs</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+  <body>
+    <div class="section">
+      <div class="container">
+        <div class="row full-height justify-content-center">
+          <div class="col-12 text-center align-self-center py-5">
+            <div class="section pb-5 pt-5 pt-sm-2 text-center">
+              <div class="card-3d-wrap mx-auto">
+                <div class="card-3d-wrapper">
+                  <div class="card-front">
+                    <div class="center-wrap">
+                      <div class="section text-center">
+                        <h4 class="mb-4 pb-3">Ric Form Jobs Street</h4>
+                        <form>
+                          <div class="form-group">
+                            <input type="text" name="fullname" class="form-style" placeholder="Nama Lengkap Pelamar" id="fullname" autocomplete="off">
+                            <i class="input-icon uil uil-user"></i>
+                          </div>
+                          <div class="form-group mt-2">
+                            <input type="email" name="email" class="form-style" placeholder="Email Pelamar" id="email" autocomplete="off">
+                            <i class="input-icon uil uil-at"></i>
+                          </div>
+                          <div class="form-group mt-2">
+                            <input type="tel" name="phone" class="form-style" placeholder="Nomor HP" id="phone" autocomplete="off">
+                            <i class="input-icon uil uil-phone"></i>
+                          </div>
+                          <div class="form-group mt-2">
+                              <label for="gender">Jenis Kelamin:</label>
+                              <div class="form-check gender-options">
+                                  <div class="form-check">
+                                      <input type="radio" id="male" name="gender" value="male" class="form-check-input">
+                                      <label for="male" class="form-check-label">Laki-laki</label>
+                                  </div>
+                                  <div class="form-check">
+                                      <input type="radio" id="female" name="gender" value="female" class="form-check-input">
+                                      <label for="female" class="form-check-label">Perempuan</label>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="form-group mt-2">
+                            <div class="form-group mt-2">
+                              <label for="tgl_lahir">Tanggal Lahir:</label>
+                              <input type="date" name="tgl_lahir" class="form-style" id="tgl_lahir">
+                            </div>
+                          </div>
+                          <div class="form-group mt-2">
+                            <label for="position">Posisi Pekerjaan:</label>
+                            <select id="position" name="position" class="form-style">
+                              <option value="junior_programmer">Junior Programmer</option>
+                              <option value="data_scientist">Data Scientist</option>
+                              <option value="data_analyst">Data Analyst</option>
+                              <option value="cyber_security">Cyber Security</option>
+                              <option value="software_engineer">Software Engineer</option>
+                              <option value="design_uiux">Design UI/UX</option>
+                              <option value="marketing_finance">Marketing Finance</option>
+                              <option value="it_support">IT Support</option>
+                            </select>
+                          </div>
+                          <div class="form-group mt-2">
+                            <label for="motivation">Motivasi (Posisi yang Dilamar):</label>
+                            <textarea name="motivation" id="motivation" class="form-style" rows="4" placeholder="Isian Motivasi"></textarea>
+                          </div>
+                          <div class="form-group mt-2">
+                            <label for="file">Upload CV Anda:</label>
+                            <input type="file" name="file" id="fileInput">
+                            <label for="fileInput">Choose a file</label>
+                            <progress value="0" max="100" id="fileProgress">0%</progress>
+                          </div>
+                          <div class="form-group mt-2">
+                            <label for="info-source">Anda dapat info pekerjaan dari mana?</label>
+                            <div class="checkbox-group">
+                              <input type="checkbox" id="rickiinstagram" name="info-source" value="rickiinstagram">
+                              <label for="rickiinstagram">Instagram</label>
+                              <input type="checkbox" id="rickifacebook" name="info-source" value="rickifacebook">
+                              <label for="rickifacebook">Facebook</label>
+                              <input type="checkbox" id="rickinewspaper" name="info-source" value="rickinewspaper">
+                              <label for="rickinewspaper">Koran</label>
+                              <input type="checkbox" id="rickisocial_media" name="info-source" value="rickisocial_media">
+                              <label for="rickisocial_media">Media Sosial</label>
+                              <input type="checkbox" id="ricktv" name="info-source" value="ricktv">
+                              <label for="ricktv">Televisi</label>
+                            </div>
+                          </div>
+                          <div class="form-group mt-4">
+                            <a href="#" class="btn">Submit</a>
+                            <a href="#" class="btn">Cancel</a>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
